@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+  <test verbose="2" preserve-order="true" name="C:/Users/sonam.gautam/IdeaProjects/A11YFramework/A11Y_Testing_Framework">
+    <classes>
+      <class name="a11yTests.TestCases">
+        <methods>
+          <exclude name="tabNavigationValidationSourceToSource"/>
+          <include name ="tabNavigationValidation"/>
+          <include name="SearchProduct"/>
+        </methods>
+      </class>
+      <class name="a11yTests.Wcag2a">
+        <methods>
+          <exclude name="TestWcg2aaa"/>
+        </methods>
+      </class>
+      <class name="a11yTests.Wcag2aa">
+        <methods>
+          <exclude name="TestWcg2aaa"/>
+        </methods>
+      </class>
+      <class name="a11yTests.Wcag2aaa">
+        <methods>
+          <exclude name="TestWcg2aaa"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
